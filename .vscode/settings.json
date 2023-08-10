@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "D:/file/Code/lib/paper/*.jar",
+        "D:/file/Code/lib/waterfall/*.jar",
+        "D:/file/Code/lib/velocity/*.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

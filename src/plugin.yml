@@ -1,0 +1,7 @@
+name: LShout
+main: qq3154311518.LShout.BukkitMain
+author: Loong
+version: ''
+commands:
+  lbm:
+    permission: op
