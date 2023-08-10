@@ -32,9 +32,9 @@ public class BukkitMain extends JavaPlugin implements CommandExecutor {
         config = new Properties();
 
         try {
-            if (!file.exists()) {
-                saveResource("config.properties", false);
-            }
+        if (!file.exists()) {
+            saveResource("config.properties", false);
+        }
         config.load(new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8));
         connection = DriverManager.getConnection("jdbc:mysql://" + config.getProperty("MySQL"));
         Statement statement = connection.createStatement();
